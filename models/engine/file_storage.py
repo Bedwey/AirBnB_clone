@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Serializes instances to a JSON file and deserializes JSON file to instances
-"""
+"""Module for FileStorage class."""
 import datetime
 import json
 import os
@@ -97,3 +95,4 @@ class FileStorage:
                          "text": str}
         }
         return attributes
+
