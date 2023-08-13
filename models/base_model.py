@@ -4,6 +4,7 @@ Defines the base model
 """
 import uuid
 from datetime import datetime
+from models import storage
 
 
 class BaseModel:
